@@ -1,13 +1,14 @@
 {
   "name": "esm-sqreen-knex",
+  "private": true,
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node -r esm index.js"
+    "start": "node -r esm -r sqreen ."
   },
   "dependencies": {
-    "bluebird": "3.5.0",
-    "esm": "^3.0.17"
+    "esm": "^3.0.17",
+    "sqreen": "^1.16.0"
   }
 }

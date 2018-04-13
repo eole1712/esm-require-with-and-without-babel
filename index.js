@@ -1,4 +1,6 @@
-import r from "./require.js";
-import i from "./import.js";
+import b from "./b";
+import a from "./a";
+import d from "./b";
+import c from "./a";
 
-console.log(r(), i());
+console.log(a(), b(), c(), d());
