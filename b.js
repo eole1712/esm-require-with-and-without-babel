@@ -12,6 +12,4 @@ function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
 }
 
-exports.default = function() {
-  return _c2.default;
-};
+exports.default = _c2.default;
