@@ -4,12 +4,12 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _c = require("./c.js");
+var _text = require("./text.js");
 
-var _c2 = _interopRequireDefault(_c);
+var _text2 = _interopRequireDefault(_text);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
 }
 
-exports.default = _c2.default;
+exports.default = _text2.default;
